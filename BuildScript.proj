@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Run">   
+ 
+   <Target Name="Run">
+    <CallTarget Targets="Clean" />
+    <CallTarget Targets="Build" />
+    <CallTarget Targets="Test" />
+  </Target>
+ 
+  <Target Name="Clean">
+    <RemoveDir Directories="bin; Tests/bin;" ContinueOnError="False"/>
+  </Target>
+ 
+  <Target Name="Build">
+    <MSBuild Projects="ParkingGarage/ParkingGarage.csproj" Properties="Configuration=Release" ContinueOnError="False"/>
+    <MSBuild Projects="Tests/Tests.csproj" Properties="Configuration=Release" ContinueOnError="False"/>
+  </Target>
+<Target Name="Test">
+    <Exec Command="nunit-console Tests/bin/Release/Tests.dll" ContinueOnError="False"/>
+ </Target>
+ 
+</Project>

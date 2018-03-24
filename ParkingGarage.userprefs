@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{B29B9F8D-E745-4127-996A-73571B419940}|Default">
+  <MonoDevelop.Ide.ItemProperties.ParkingGarage PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/packages.config">
+    <Files>
+      <File FileName="Tests/Test.cs" Line="16" Column="42" />
+      <File FileName="ParkingGarage/Parking.cs" Line="29" Column="4" />
+      <File FileName="ParkingGarage/Program.cs" Line="11" Column="4" />
+      <File FileName="ParkingGarage/InputProcessor.cs" Line="49" Column="13" />
+      <File FileName="ParkingGarage/BuildScript.proj" Line="21" Column="73" />
+      <File FileName="Tests/packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

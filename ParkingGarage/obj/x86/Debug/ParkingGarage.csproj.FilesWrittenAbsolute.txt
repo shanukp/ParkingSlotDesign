@@ -1,0 +1,7 @@
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/bin/Debug/ParkingGarage.exe.mdb
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/bin/Debug/ParkingGarage.exe
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/obj/x86/Debug/ParkingGarage.exe
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/obj/x86/Debug/ParkingGarage.exe.mdb
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/bin/Debug/ParkingGarage.pdb
+/Users/Shanu/Projects/ParkingGarage/ParkingGarage/obj/x86/Debug/ParkingGarage.pdb

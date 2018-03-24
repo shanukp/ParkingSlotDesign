@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Run">   
+ 
+   <Target Name="Run">
+    <CallTarget Targets="Clean" />
+    <CallTarget Targets="Build" />
+    <CallTarget Targets="Test" />
+  </Target>
+ 
+  <Target Name="Clean">
+    <RemoveDir Directories="ParkingGarage/bin; Tests/bin;" ContinueOnError="False"/>
+  </Target>
+ 
+  <Target Name="Build">
+    <MSBuild Projects="ParkingGarage/ParkingGarage.csproj" Properties="Configuration=Release" ContinueOnError="False"/>
+    <MSBuild Projects="Tests/Tests.csproj" Properties="Configuration=Release" ContinueOnError="False"/>
+  </Target>
+ 
+  <UsingTask AssemblyFile="packages/MSBuildTasks.1.4.0.78/tools/MSBuild.Community.Tasks.dll" TaskName="NUnit"/> 
+  <Target Name="Test">
+    <NUnit Assemblies="Tests/bin/Release/Tests.dll" ToolPath="/usr/bin" />
+  </Target>
+</Project>

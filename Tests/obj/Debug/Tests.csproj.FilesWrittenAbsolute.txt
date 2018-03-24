@@ -1,0 +1,9 @@
+/Users/Shanu/Projects/ParkingGarage/Tests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Shanu/Projects/ParkingGarage/Tests/bin/Debug/Tests.pdb
+/Users/Shanu/Projects/ParkingGarage/Tests/bin/Debug/Tests.dll
+/Users/Shanu/Projects/ParkingGarage/Tests/obj/Debug/Tests.dll
+/Users/Shanu/Projects/ParkingGarage/Tests/obj/Debug/Tests.pdb
+/Users/Shanu/Projects/ParkingGarage/Tests/bin/Debug/nunit.framework.dll
+/Users/Shanu/Projects/ParkingGarage/Tests/bin/Debug/ParkingGarage.exe
+/Users/Shanu/Projects/ParkingGarage/Tests/bin/Debug/ParkingGarage.exe.mdb
+/Users/Shanu/Projects/ParkingGarage/Tests/bin/Debug/ParkingGarage.pdb

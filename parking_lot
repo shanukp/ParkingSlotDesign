@@ -1,0 +1,4 @@
+#!/bin/sh
+
+xbuild BuildScript.proj
+mono ParkingGarage/bin/Release/parkingGarage.exe $1
